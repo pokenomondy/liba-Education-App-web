@@ -67,7 +67,7 @@ if(q>620){w=q/2.1-30
 v=p-130
 u=this.e.a
 x.push(B.a8(B.b([new A.DB(w,"DISPONIBLES","DISPONIBLE",v,u,t),new A.DB(w,s,s,v,u,t)],r),C.f,C.i,C.h,t))}if(q<=620)x.push(new B.as(q-20,p-80,new A.a5b(t),t))
-return B.lj(t,new B.P(C.qc,B.a8(B.b([B.ab(x,C.f,t,C.i,C.h,C.m)],r),C.f,C.i,C.h,t),t),t)}}
+return B.lk(t,new B.P(C.qc,B.a8(B.b([B.ab(x,C.f,t,C.i,C.h,C.m)],r),C.f,C.i,C.h,t),t),t)}}
 A.DB.prototype={
 a_(){return new A.aHs(new B.A(Date.now(),!1),C.l)}}
 A.aHs.prototype={
@@ -81,7 +81,7 @@ p(){this.aN()},
 E(d){var x,w=null,v="ESPERANDO",u=y.x,t=B.aB(d,w,u).w.a.a,s=B.aB(d,w,u).w.a.b
 u=this.d
 x=this.e.a
-return B.lj(w,w,B.pn(C.dS,B.b([B.ed(new A.DB(t,"DISPONIBLES","DISPONIBLE",s,x,w),C.dN,w,w,D.a5f),B.ed(new A.DB(t,v,v,s,x,w),C.dN,w,w,D.a5l)],y.l),new A.bL9(this),u,w))}}
+return B.lk(w,w,B.pn(C.dS,B.b([B.ed(new A.DB(t,"DISPONIBLES","DISPONIBLE",s,x,w),C.dN,w,w,D.a5f),B.ed(new A.DB(t,v,v,s,x,w),C.dN,w,w,D.a5l)],y.l),new A.bL9(this),u,w))}}
 var z=a.updateTypes(["F8(C,fJ,h9,c?)"])
 A.b69.prototype={
 $1(d){},
@@ -92,8 +92,8 @@ t=this.a
 t.d=f.r.a
 x=B.b([],y.m)
 u=t.a.e
-if(u==="DISPONIBLE"){u=J.mi(v,new A.c_l(t,s))
-x=B.K(u,!0,u.$ti.i("x.E"))}else if(u==="ESPERANDO"){u=J.mi(v,new A.c_m(t))
+if(u==="DISPONIBLE"){u=J.mj(v,new A.c_l(t,s))
+x=B.K(u,!0,u.$ti.i("x.E"))}else if(u==="ESPERANDO"){u=J.mj(v,new A.c_m(t))
 x=B.K(u,!0,u.$ti.i("x.E"))}C.b.e9(x,new A.c_n())
 u=t.a
 w=u.f
@@ -137,10 +137,10 @@ $0(){this.a.d=this.b},
 $S:0};(function inheritance(){var x=a.inheritMany,w=a.inherit
 x(B.M,[A.AP,A.DB,A.a5b])
 x(B.Q,[A.al3,A.aHs,A.aAB])
-x(B.ky,[A.b69,A.c_o,A.c_k,A.c_l,A.c_i,A.c_j,A.c_m,A.c_h,A.bL9])
+x(B.kz,[A.b69,A.c_o,A.c_k,A.c_l,A.c_i,A.c_j,A.c_m,A.c_h,A.bL9])
 w(A.c_n,B.n4)
 w(A.bL8,B.n3)})()
 B.pR(b.typeUniverse,JSON.parse('{"DB":{"M":[],"c":[]},"a5b":{"M":[],"c":[]},"AP":{"M":[],"c":[]},"al3":{"Q":["AP"]},"aHs":{"Q":["DB"]},"aAB":{"Q":["a5b"]}}'))
-var y={i:B.aj("t<e7>"),l:B.aj("t<jM>"),m:B.aj("t<fB>"),u:B.aj("t<c>"),x:B.aj("kc"),F:B.aj("cc"),B:B.aj("fJ"),r:B.aj("h9")};(function constants(){E.akW=new B.a5(20,20,0,20)})()};
+var y={i:B.aj("t<e7>"),l:B.aj("t<jN>"),m:B.aj("t<fB>"),u:B.aj("t<c>"),x:B.aj("kd"),F:B.aj("cc"),B:B.aj("fJ"),r:B.aj("h9")};(function constants(){E.akW=new B.a5(20,20,0,20)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_32",e:"endPart",h:b})})($__dart_deferred_initializers__,"WD01lY+1gKQM70rLzfqVaxiO9Dc=");
+a.eventLog.push({p:"main.dart.js_32",e:"endPart",h:b})})($__dart_deferred_initializers__,"WXP4LFFG9ubOot69fMsI3gaiVyM=");
