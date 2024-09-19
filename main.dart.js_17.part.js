@@ -217,7 +217,7 @@ u.push(A.a8(A.b([new B.Uf(w,s,v,v),new B.Ee(r*2/4,s,v,v),new B.afp(w,s,v)],x),C.
 return A.a8(u,C.f,C.i,C.h,v)}}
 B.Uf.prototype={
 a_(){var x=A.bz(),w=A.qq(),v=$.ai(),u=A.aQ(),t=A.b(["ARCHIVADO","INBOX"],y.s)
-return new B.aVM(new B.afl(x,w),new B.aCM(),new A.bN(C.K,v),u,t,new A.bN(C.K,v),C.l)}}
+return new B.aVM(new B.afl(x,w),new B.aCM(),new A.bM(C.K,v),u,t,new A.bM(C.K,v),C.l)}}
 B.aVM.prototype={
 ai(){var x=this,w=x.a.e
 x.f=w===!0
@@ -247,7 +247,7 @@ case 2:return A.n(null,w)}})
 return A.o($async$PS,w)}}
 B.Ee.prototype={
 a_(){var x=A.bz(),w=A.qq()
-return new B.aVL(new B.afl(x,w),new B.aCM(),new A.bN(C.K,$.ai()),A.aQ(),C.l)}}
+return new B.aVL(new B.afl(x,w),new B.aCM(),new A.bM(C.K,$.ai()),A.aQ(),C.l)}}
 B.aVL.prototype={
 ai(){var x=this.a.e
 this.r=x===!0
@@ -828,7 +828,7 @@ $0(){var x,w,v=this,u=v.b,t=A.bK(u,!1,y.r),s=t.b=v.c
 t.ab()
 x=v.a
 if(x.f){w=A.a08(new B.cqT(x),null,y.z)
-A.bM(u,!1).io(w)}if(s.e!==0)x.a0g(s.c)
+A.bQ(u,!1).io(w)}if(s.e!==0)x.a0g(s.c)
 u=s.c
 s=v.d.h(0,u)
 if((s==null?null:s.h(0,"tipo"))==="cliente")v.e.Wf(u)},
@@ -859,7 +859,7 @@ $C:"$4",
 $R:4,
 $S:1333}
 B.cqI.prototype={
-$0(){A.bM(this.a,!1).cR(null)},
+$0(){A.bQ(this.a,!1).cR(null)},
 $S:0}
 B.cqJ.prototype={
 $2(d,e){var x,w=null
@@ -1105,4 +1105,4 @@ D.aVH=new A.bg("Move",null,null,null,null,null,null,null,null,null,null,null)
 D.aVI=new A.bg("Chats",null,null,null,null,null,null,null,null,null,null,null)
 D.aVQ=new A.bg("Unpin",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"Ty+VoZpXwRIMq1UQrY757U2k1XA=");
+a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"LgecLIuSs+D/jqUl1h0jCVMvXAA=");

@@ -245,7 +245,7 @@ u=u.a.b-180
 return A.lk(v,v,A.pn(B.dS,A.b([A.ed(new C.QN(t,w,v),B.dN,v,v,D.aVS),A.ed(new C.wM(t,"Disponible","DISPONIBLEALL",u,w,v),B.dN,v,v,E.a5f),A.ed(new C.wM(t,"Esperando","ESPERANDO",u,w,v),B.dN,v,v,E.a5l)],y.g),new C.bL7(this),x,v))}}
 C.QN.prototype={
 a_(){var x=A.b(["PARCIAL","TALLER","QUIZ","CLASES PERSONALIZADAS","TESIS"],y.s),w=$.ai()
-return new C.aBa(x,new A.bN(B.K,w),new A.bN(B.K,w),new A.bN(B.K,w),new A.bN(B.K,w),new A.bN(B.K,w),new A.bN(B.K,w),A.bz(),A.b([],y.S),A.b([],y.B),A.b([],y.W),A.b([],y.D),new A.A(Date.now(),!1),A.b([],y.k),A.aQ(),A.axa(),B.l)}}
+return new C.aBa(x,new A.bM(B.K,w),new A.bM(B.K,w),new A.bM(B.K,w),new A.bM(B.K,w),new A.bM(B.K,w),new A.bM(B.K,w),A.bz(),A.b([],y.S),A.b([],y.B),A.b([],y.W),A.b([],y.D),new A.A(Date.now(),!1),A.b([],y.k),A.aQ(),A.axa(),B.l)}}
 C.aBa.prototype={
 ai(){var x=this.c
 x.toString
@@ -315,7 +315,7 @@ x=A.b([s,x,t,r,A.a4(n,A.a8(A.b([q,new A.ff(1,B.bi,A.B(p,n,n,n,n,n,A.aa(n,n,B.a8,
 if(w.a.a==="PARCIAL")x.push(o.WE(k,"Duraci\xf3n del examen"))
 t=w.a.a
 if(t==="TALLER"||t==="TESIS")x.push(o.WE("Resumen","Info de cliente"))
-if(w.a.a==="CLASES PERSONALIZADA")x.push(o.WE("Temas de asesor\xeda","NA"))
+if(w.a.a==="CLASES PERSONALIZADAS")x.push(o.WE("Temas de asesor\xeda","NA"))
 if(w.a.a==="QUIZ")x.push(o.WE(k,"Duraci\xf3n del quiz"))
 A.c5()
 A.aQ()
@@ -677,7 +677,7 @@ $1(d){var x=null
 return new A.P(B.dK,A.B(d,x,x,x,x,x,A.aa(x,x,B.ar,x,x,x,x,x,"Poppins",x,x,14,x,x,B.a_,x,x,!0,x,x,x,x,x,x,x,x),x,x,x),x)},
 $S:239}
 C.c_7.prototype={
-$0(){A.bM(this.a,!1).cR(null)
+$0(){A.bQ(this.a,!1).cR(null)
 return null},
 $S:0};(function inheritance(){var x=a.inheritMany
 x(A.M,[C.CX,C.Qz,C.QN,C.wM])
@@ -693,4 +693,4 @@ D.alg=new A.a5(50,30,50,30)
 D.apv=new A.aZ(984405,"MaterialIcons",null,!1)
 D.aVS=new A.bg("New solicitud",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_26",e:"endPart",h:b})})($__dart_deferred_initializers__,"iC4wIXUUzaw5zy9enpJ6CPps/6c=");
+a.eventLog.push({p:"main.dart.js_26",e:"endPart",h:b})})($__dart_deferred_initializers__,"VZHtIVPIdxbnf6nlVVNlGh16qmw=");

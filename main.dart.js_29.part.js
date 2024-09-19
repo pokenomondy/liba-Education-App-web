@@ -664,7 +664,7 @@ v=B.b([],y.B)
 u=B.bz()
 t=B.aQ()
 s=B.b(["ADMIN","TUTOR","COLABORADOR"],y.s)
-return new A.aHt(new B.bN(C.K,q),new B.bN(C.K,q),new B.bN(C.K,q),new B.bN(C.K,q),x,p,w,v,u,t,s,new B.bN(C.K,q),C.l)}}
+return new A.aHt(new B.bM(C.K,q),new B.bM(C.K,q),new B.bM(C.K,q),new B.bM(C.K,q),x,p,w,v,u,t,s,new B.bM(C.K,q),C.l)}}
 A.aHt.prototype={
 ai(){this.aw()
 if($.Y==null)B.eV()
@@ -697,12 +697,12 @@ break
 case 2:u.jA(0,"Error, debe llenar todos los campos","Error")
 x=3
 break
-case 4:u.lt("Por favor espere","Cargando")
+case 4:u.lR("Por favor espere","Cargando")
 x=5
 return B.k(v.Kc(),$async$a6k)
 case 5:t=u.b
 t===$&&B.a()
-B.bM(t,!1).cR(null)
+B.bQ(t,!1).cR(null)
 u.iD("El tutor fue creado satisfactoriamente, por favor vuelva a iniciar sesi\xf3n","Exito")
 case 3:return B.n(null,w)}})
 return B.o($async$a6k,w)},
@@ -724,7 +724,7 @@ case 8:n.d5()
 n.f.q5()
 n=t.c
 n.toString
-B.bM(n,!1).cR(null)
+B.bQ(n,!1).cR(null)
 v=1
 x=6
 break
@@ -1298,7 +1298,7 @@ A.bWE.prototype={
 $1(d){return this.a.bfP(d,this.b,this.c)},
 $S:44}
 A.bWD.prototype={
-$0(){B.bM(this.a,!1).cR(null)
+$0(){B.bQ(this.a,!1).cR(null)
 return null},
 $S:0}
 A.c_D.prototype={
@@ -1398,4 +1398,4 @@ D.aVW=new B.bg("Estadisticas de materia",null,null,null,null,null,null,null,null
 D.aVY=new B.bg("Tutores",null,null,null,null,null,null,null,null,null,null,null)
 D.aW1=new B.bg("Nuevo tutor",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_29",e:"endPart",h:b})})($__dart_deferred_initializers__,"bE1pqZ2LK+Jm/R0Z1jhzt85Q4Kk=");
+a.eventLog.push({p:"main.dart.js_29",e:"endPart",h:b})})($__dart_deferred_initializers__,"UOzZHGn6c8LxUPaGdIVAuQ/DNWs=");

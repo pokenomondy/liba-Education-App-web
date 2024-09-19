@@ -38,7 +38,7 @@ v=Date.now()
 u=J.du(10,y.y)
 for(t=0;t<10;++t)u[t]=!1
 s=$.ai()
-return new C.aj0(r,q,x,new A.bN(B.K,w),new A.bN(B.K,w),new A.A(v,!1),new A.bN(B.K,w),u,new A.bN(B.K,s),new A.bN(B.K,s),new A.qc(A.c5(),A.aQ()),B.l)},
+return new C.aj0(r,q,x,new A.bM(B.K,w),new A.bM(B.K,w),new A.A(v,!1),new A.bM(B.K,w),u,new A.bM(B.K,s),new A.bM(B.K,s),new A.qc(A.c5(),A.aQ()),B.l)},
 F8:function F8(d,e,f,g,h,i,j){var _=this
 _.c=d
 _.d=e
@@ -370,7 +370,7 @@ else{t=A.nt()
 u=A.cw(u.a.a,null)
 s=v.r
 new A.nW(t).ul(e,u,s.r,s.a,B.c.ah(q.a,6e7),v.x.a.a,v.y)
-A.bM(f,!1).cR("User deleted file")
+A.bQ(f,!1).cR("User deleted file")
 v.C(new C.b5y(v))
 r.iD("La operaci\xf3n salio exitosa","Exito")}}return A.n(null,w)}})
 return A.o($async$ao_,w)},
@@ -406,7 +406,7 @@ s.Xe()
 v.a=s
 x=$.ai()
 v.b=A.b([],y.q)
-return new A.kX(new C.b57(v,this,t,f,u,new A.bN(B.K,x),e),w)},
+return new A.kX(new C.b57(v,this,t,f,u,new A.bM(B.K,x),e),w)},
 QR(d,e,f,g,h,i){return this.bLE(d,e,f,g,h,i)},
 bLE(d,e,f,g,h,a0){var x=0,w=A.p(y.H),v=this,u,t,s,r,q,p,o,n,m,l,k,j,i
 var $async$QR=A.l(function(a1,a2){if(a1===1)return A.m(a2,w)
@@ -430,7 +430,7 @@ break
 case 8:k.jA(0,"C\xf3digo ya existe","Error")
 x=9
 break
-case 10:k.lt("Por favor espere","Cargando")
+case 10:k.lR("Por favor espere","Cargando")
 t=e.c
 s=e.e
 r=d.c
@@ -444,8 +444,8 @@ case 14:x=12
 break
 case 13:x=15
 return A.k(A.fW().Jx(v.CW,t,B.c.l(s),A.cw(j.a.a,null),u,r,i,v.Q,q,v.cx,"NO ENTREGADO",p),$async$QR)
-case 15:case 12:A.bM(f,!1).cR("User deleted file")
-A.bM(f,!1).cR("User deleted file")
+case 15:case 12:A.bQ(f,!1).cR("User deleted file")
+A.bQ(f,!1).cR("User deleted file")
 if(A.bK(f,!1,y._).a.cx){o=B.b.fu(v.d,new C.b5i(d))
 n=A.b([573161585420,o.c],y.t)
 j=o.b
@@ -454,7 +454,7 @@ m=A.b([e.a,t,j,A.jP(2,null,"$").aT(i),A.bF("dd/MM/yyyy hh:mma",null).aT(u),v.CW,
 l=B.b.fu(A.bK(f,!1,y.b).a,new C.b5j())
 new A.E5(A.bz()).xv(n,l.e,m)}j=k.b
 j===$&&A.a()
-A.bM(j,!1).cR(null)
+A.bQ(j,!1).cR(null)
 k.iD("La operaci\xf3n salio exitosa","Exito")
 case 9:case 6:case 3:return A.n(null,w)}})
 return A.o($async$QR,w)},
@@ -502,14 +502,14 @@ break
 case 2:t.jA(0,"Error, debe llenar todos los campos","Error")
 x=3
 break
-case 4:t.lt("Por favor espere","Cargando")
+case 4:t.lR("Por favor espere","Cargando")
 x=5
 return A.k(A.fW().M0(v.ch,v.ay,d.e),$async$a6l)
 case 5:new A.cC(A.bz()).mi("REGISTRADO CON EXITO",e,!0,"exito")
-A.bM(e,!1).cR("User canceled dialog")
+A.bQ(e,!1).cR("User canceled dialog")
 u=t.b
 u===$&&A.a()
-A.bM(u,!1).cR(null)
+A.bQ(u,!1).cR(null)
 t.iD("La operaci\xf3n salio exitosa","Exito")
 case 3:return A.n(null,w)}})
 return A.o($async$a6l,w)},
@@ -692,7 +692,7 @@ case 2:return A.n(null,w)}})
 return A.o($async$$0,w)},
 $S:3}
 C.b4B.prototype={
-$0(){A.bM(this.a,!1).cR("User canceled dialog")},
+$0(){A.bQ(this.a,!1).cR("User canceled dialog")},
 $S:0}
 C.b5x.prototype={
 $1(d){return new A.kX(new C.b5w(this.a,this.b),null)},
@@ -717,7 +717,7 @@ C.b4L.prototype={
 $1(d){return d.c===this.a.a},
 $S:187}
 C.b4O.prototype={
-$0(){A.bM(this.a,!1).cR(null)},
+$0(){A.bQ(this.a,!1).cR(null)},
 $S:0}
 C.b5y.prototype={
 $0(){var x=this.a
@@ -773,8 +773,8 @@ while(true)switch(x){case 0:u=v.a
 t=v.b
 s=B.c.l(t.a)
 r=$.ai()
-u.dx=new A.bN(new A.cF(s,B.el,B.an),r)
-u.dy=new A.bN(new A.cF(t.e,B.el,B.an),r)
+u.dx=new A.bM(new A.cF(s,B.el,B.an),r)
+u.dy=new A.bM(new A.cF(t.e,B.el,B.an),r)
 v.c.$1(new C.b4R(u,v.d))
 return A.n(null,w)}})
 return A.o($async$$0,w)},
@@ -817,7 +817,7 @@ $0(){var x=this.a.db,w=this.b
 x[w]=!x[w]},
 $S:0}
 C.b4Z.prototype={
-$0(){A.bM(this.a,!1).cR(null)},
+$0(){A.bQ(this.a,!1).cR(null)},
 $S:0}
 C.b58.prototype={
 $1(d){return this.a.bIn(d,this.b,this.c)},
@@ -877,7 +877,7 @@ $0(){var x=this,w=x.a
 x.b.QR(x.c,x.d,x.e,w.a,x.f,w.b)},
 $S:0}
 C.b53.prototype={
-$0(){A.bM(this.a,!1).cR(null)},
+$0(){A.bQ(this.a,!1).cR(null)},
 $S:0}
 C.b5g.prototype={
 $1(d){return d.c===this.a.a.a},
@@ -939,7 +939,7 @@ return A.n(null,w)}})
 return A.o($async$$0,w)},
 $S:3}
 C.b4H.prototype={
-$0(){A.bM(this.a,!1).cR("User canceled dialog")
+$0(){A.bQ(this.a,!1).cR("User canceled dialog")
 return null},
 $S:0}
 C.b5f.prototype={
@@ -984,12 +984,12 @@ C.bcr.prototype={
 $0(){var x=0,w=A.p(y.H),v=this
 var $async$$0=A.l(function(d,e){if(d===1)return A.m(e,w)
 while(true)switch(x){case 0:A.fW().JQ(v.b,v.a.gapo())
-A.bM(v.c,!1).cR("User canceled dialog")
+A.bQ(v.c,!1).cR("User canceled dialog")
 return A.n(null,w)}})
 return A.o($async$$0,w)},
 $S:3}
 C.bcs.prototype={
-$0(){A.bM(this.a,!1).cR("User canceled dialog")
+$0(){A.bQ(this.a,!1).cR("User canceled dialog")
 return null},
 $S:0};(function inheritance(){var x=a.inheritMany
 x(A.n3,[C.bLD,C.bLA,C.bLB,C.bLC,C.bLz,C.b5n,C.b5q,C.b5r,C.b5s,C.b5t,C.b5u,C.b5v,C.b4x,C.b4A,C.b4B,C.b4O,C.b5y,C.b4S,C.b4T,C.b4R,C.b4U,C.b4V,C.b4Q,C.b4W,C.b4P,C.b4Z,C.b5_,C.b50,C.b51,C.b52,C.b53,C.b5a,C.b5b,C.b5c,C.b5d,C.b5e,C.b4D,C.b4C,C.b4G,C.b4H,C.bcw,C.bcv,C.bco,C.bcr,C.bcs])
@@ -1019,4 +1019,4 @@ D.aV2=new A.bg("Cargando",null,null,null,null,null,null,null,null,null,null,null
 D.aVz=new A.bg("No podes agendar, la fecha de entrga es menor",null,null,null,null,null,null,null,null,null,null,null)
 D.aVO=new A.bg("Seleccionar tipo de estado",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_23",e:"endPart",h:b})})($__dart_deferred_initializers__,"mEQK0MX7J+WrlfNdGHLm+vlYCIo=");
+a.eventLog.push({p:"main.dart.js_23",e:"endPart",h:b})})($__dart_deferred_initializers__,"V3izHoZiDuzr+dMN0pLq+hPM5C0=");
