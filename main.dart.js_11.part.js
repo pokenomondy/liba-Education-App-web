@@ -3,8 +3,7 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_11",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var A,B
 A=c[0]
-B=c[18]
-var z=a.updateTypes([]);(function constants(){B.a2W=new A.b9("Disponible",null,null,null,null,null,null,null,null,null,null,null)
-B.a30=new A.b9("Esperando",null,null,null,null,null,null,null,null,null,null,null)})()};
+B=c[17]
+var z=a.updateTypes([]);(function constants(){B.zv=new A.a5(15,5,15,5)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_11",e:"endPart",h:b})})($__dart_deferred_initializers__,"8t3OsRscRVJ+kKObOhezdzpn3Fg=");
+a.eventLog.push({p:"main.dart.js_11",e:"endPart",h:b})})($__dart_deferred_initializers__,"SOYAUqkGJLsgEKpyr6rsqCOpkKQ=");
