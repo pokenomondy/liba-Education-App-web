@@ -119,9 +119,9 @@ O(){return new A.amY()}}
 A.amY.prototype={
 a6(){var x=this.c
 x.toString
-this.d=B.bd(x,!1,y.l).x
+this.d=B.bb(x,!1,y.l).x
 this.ah()},
-B(d){var x,w,v,u,t=null,s=y.w,r=B.aI(d,t,s).w.a.a,q=r-45,p=B.aI(d,t,s).w.a.b-80
+B(d){var x,w,v,u,t=null,s=y.w,r=B.aJ(d,t,s).w.a.a,q=r-45,p=B.aJ(d,t,s).w.a.b-80
 s=B.G(20,0,0,0)
 x=y.p
 w=B.b([],x)
@@ -130,8 +130,8 @@ u=this.d.w
 if(u==="TUTOR"||u==="PROSPECTO")v.push(B.a8(B.b([new A.Qn(q*0.55,p,t)],x),C.f,C.i,C.h,t))
 u=this.d.w
 if(u==="ADMIN"||u==="COLABORADOR")v.push(new A.a1P(q*0.55,p,t))
-w.push(B.a8(v,C.N,C.i,C.h,t))}if(r<1200)w.push(new B.al(t,p,B.eG(B.a1(B.b([new A.Ph(r,-1,t),new A.Qn(r,-1,t)],x),C.f,t,C.i,C.h,C.l),t,t,t,t,t,C.z),t))
-return B.a2(t,B.eG(B.a1(w,C.f,t,C.i,C.h,C.l),t,t,t,t,t,C.z),C.k,s,t,t,t,t,t,t,t,t,t,t)}}
+w.push(B.a8(v,C.N,C.i,C.h,t))}if(r<1200)w.push(new B.al(t,p,B.eH(B.a1(B.b([new A.Ph(r,-1,t),new A.Qn(r,-1,t)],x),C.f,t,C.i,C.h,C.l),t,t,t,t,t,C.z),t))
+return B.a2(t,B.eH(B.a1(w,C.f,t,C.i,C.h,C.l),t,t,t,t,t,C.z),C.k,s,t,t,t,t,t,t,t,t,t,t)}}
 A.Ph.prototype={
 O(){var x=y.C,w=B.b([],x),v=B.b(["NEQUI","PAYPAL","BANCOLOMBIA","DAVIPLATA","BINANCE"],y.s),u=$.ad()
 return new A.axB(w,v,new B.bq(C.D,u),new B.bq(C.D,u),new B.bq(C.D,u),B.b([],y.i),B.b([],y.e),B.aj(),B.b([],x),B.b([],y._))}}
@@ -139,7 +139,7 @@ A.axB.prototype={
 a6(){var x=this
 x.ah()
 x.LV()
-if($.V==null)B.ey()
+if($.V==null)B.ez()
 $.V.toString
 x.at.iu().bO(0,new A.bB9(x),y.P)
 x.db=x.a.c},
@@ -147,7 +147,7 @@ n(){this.aB()},
 LV(){var x=0,w=B.o(y.H),v=this
 var $async$LV=B.j(function(d,e){if(d===1)return B.l(e,w)
 while(true)switch(x){case 0:x=2
-return B.h(B.hK().zR(),$async$LV)
+return B.h(B.hK().zQ(),$async$LV)
 case 2:v.d=e
 x=3
 return B.h(B.hK().Ge(),$async$LV)
@@ -161,39 +161,39 @@ return B.n($async$LV,w)},
 B(d){var x=this.CW
 if(x===$?this.CW=!1:x)return B.eV(new A.bB5(this),y.l)
 else return C.bN},
-bLu(d){var x,w=null
+bLv(d){var x,w=null
 if(d.w==="PROSPECTO"){x=d.ay
 if(x&&!d.ax)return B.v("Ya fue aprobado el prospecto",w,w,w,w,w,w,w,w,w)
 else if(!x&&d.ax)return B.v("El tutor no fue aprobado",w,w,w,w,w,w,w,w,w)
 else return B.a1(B.b([new B.O(C.eE,B.bZ(this.at.a,!1,new A.bB6(this),!1,15,C.J,"Aprobar Perfil",300),w),new B.O(C.eE,B.bZ(C.bn,!1,new A.bB7(this),!1,15,C.J,"Perfil no apto",300),w)],y.p),C.f,w,C.i,C.h,C.l)}else return B.a2(w,w,C.k,w,w,w,w,w,w,w,w,w,w,w)},
-F1(d,e){return this.b6Z(d,e)},
-b6Z(d,e){var x=0,w=B.o(y.H),v=this,u,t,s,r,q
-var $async$F1=B.j(function(f,g){if(f===1)return B.l(g,w)
+F2(d,e){return this.b7_(d,e)},
+b7_(d,e){var x=0,w=B.o(y.H),v=this,u,t,s,r,q
+var $async$F2=B.j(function(f,g){if(f===1)return B.l(g,w)
 while(true)switch(x){case 0:q=v.c
 q.toString
-u=B.bd(q,!1,y.b).a
+u=B.bb(q,!1,y.b).a
 t=d?C.b.dN(u,new A.bAQ()):C.b.dN(u,new A.bAR())
 s=B.b([573161585420,v.ax.c],y.t)
 r=B.b([v.ax.b],y.s)
 x=4
-return B.h(v.n4(d,e),$async$F1)
+return B.h(v.n4(d,e),$async$F2)
 case 4:x=g?2:3
 break
 case 2:x=!d?5:6
 break
 case 5:x=7
-return B.h(v.n4(!0,"expulsado"),$async$F1)
+return B.h(v.n4(!0,"expulsado"),$async$F2)
 case 7:case 6:x=8
-return B.h(new B.rj(B.bL()).qF(s,t.e,r),$async$F1)
+return B.h(new B.rj(B.bL()).qF(s,t.e,r),$async$F2)
 case 8:case 3:return B.m(null,w)}})
-return B.n($async$F1,w)},
-n4(d,e){return this.bI8(d,e)},
-bI8(d,e){var x=0,w=B.o(y.y),v,u=this,t,s,r,q
+return B.n($async$F2,w)},
+n4(d,e){return this.bI9(d,e)},
+bI9(d,e){var x=0,w=B.o(y.y),v,u=this,t,s,r,q
 var $async$n4=B.j(function(f,g){if(f===1)return B.l(g,w)
 while(true)switch(x){case 0:r=u.c
 r.toString
 t=new B.cY(r)
-r=B.cn(new B.eL().kG(u.ax.R8),y.f)
+r=B.cm(new B.er().ke(u.ax.R8),y.f)
 q=J
 x=3
 return B.h(r,$async$n4)
@@ -205,7 +205,7 @@ case 4:s=g
 r=J.R(s)
 if(!r.h(s,"success")){r=r.h(s,"message")
 B.aq()
-t.eY(0,r,"Error")
+t.f6(0,r,"Error")
 v=!1
 x=1
 break}else{r=r.h(s,"message")
@@ -215,14 +215,14 @@ v=!0
 x=1
 break}case 1:return B.m(v,w)}})
 return B.n($async$n4,w)},
-c2F(){var x,w,v,u=this,t=u.c
+c2H(){var x,w,v,u=this,t=u.c
 t.toString
 x=new B.cY(t)
 if(u.e==null){B.aq()
 B.aq()
-x.eY(0,"Error, debe seleccionar un materia","Error")}else if(C.b.ew(u.ay,new A.bBc(u))){B.aq()
+x.f6(0,"Error, debe seleccionar un materia","Error")}else if(C.b.ew(u.ay,new A.bBc(u))){B.aq()
 B.aq()
-x.eY(0,"Error, la mater\xeda ya fue agregada","Error")}else{t=B.jL()
+x.f6(0,"Error, la mater\xeda ya fue agregada","Error")}else{t=B.jL()
 w=u.ax.r
 v=u.e.a
 if(w!=="")if(v!=="")t.a.QM("",w,v,"")
@@ -235,17 +235,17 @@ A.Qn.prototype={
 O(){return new A.aAm(B.aj())}}
 A.aAm.prototype={
 a6(){this.ah()
-if($.V==null)B.ey()
+if($.V==null)B.ez()
 $.V.toString
 this.d.iu().bO(0,new A.bKW(this),y.P)},
 B(d){var x=this,w=null,v=x.e
-if(v===$?x.e=!1:v)return B.eG(B.a1(B.b([B.eV(new A.bKU(x),y.l),new A.a_j(x.a.c,w)],y.p),C.f,w,C.i,C.h,C.l),w,w,w,w,w,C.z)
+if(v===$?x.e=!1:v)return B.eH(B.a1(B.b([B.eV(new A.bKU(x),y.l),new A.a_j(x.a.c,w)],y.p),C.f,w,C.i,C.h,C.l),w,w,w,w,w,C.z)
 else return C.bN}}
 A.a_j.prototype={
 O(){return new A.arr(B.aj())}}
 A.arr.prototype={
 a6(){this.ah()
-if($.V==null)B.ey()
+if($.V==null)B.ez()
 $.V.toString
 this.d.iu().bO(0,new A.blQ(this),y.P)},
 B(d){var x,w=null,v=B.G(153,68,68,68)
@@ -259,7 +259,7 @@ A.a63.prototype={
 O(){return new A.aCh(B.aj())}}
 A.aCh.prototype={
 a6(){this.ah()
-if($.V==null)B.ey()
+if($.V==null)B.ez()
 $.V.toString
 this.d.iu().bO(0,new A.bWv(this),y.P)},
 B(d){var x=this.e
@@ -271,48 +271,48 @@ A.awM.prototype={
 a6(){this.r=B.bm(B.bk().dx,!0,y.N)
 this.ah()},
 B(d){return B.eV(new A.bxO(this),y.l)},
-Nu(d){return this.aYx(d)},
-aYx(d){var x=0,w=B.o(y.H),v=this,u,t,s,r
+Nu(d){return this.aYy(d)},
+aYy(d){var x=0,w=B.o(y.H),v=this,u,t,s,r
 var $async$Nu=B.j(function(e,f){if(e===1)return B.l(f,w)
 while(true)switch(x){case 0:s=v.c
 s.toString
 u=new B.cY(s)
-s=B.cn(new B.eL().kG(v.f.R8),y.f)
+s=B.cm(new B.er().ke(v.f.R8),y.f)
 r=J
 x=2
 return B.h(s,$async$Nu)
 case 2:s=r.Y(f,"baseData")
 s.toString
-B.aJ("el bool es "+D.aZb.l(0))
+B.aG("el bool es "+D.aZb.l(0))
 x=3
-return B.h(B.jL().aho(d,v.f.r,s),$async$Nu)
+return B.h(B.jL().ahp(d,v.f.r,s),$async$Nu)
 case 3:t=f
 s=J.R(t)
 if(!s.h(t,"success")){s=s.h(t,"message")
 B.aq()
-u.eY(0,s,"Error")}else{s=s.h(t,"message")
+u.f6(0,s,"Error")}else{s=s.h(t,"message")
 B.aq()
 u.f7(s,"La operaci\xf3n salio exitosa")}return B.m(null,w)}})
 return B.n($async$Nu,w)},
-o4(d,e){return this.bWG(d,e)},
-bWG(d,e){var x=0,w=B.o(y.H),v=this,u,t,s,r
+o4(d,e){return this.bWI(d,e)},
+bWI(d,e){var x=0,w=B.o(y.H),v=this,u,t,s,r
 var $async$o4=B.j(function(f,g){if(f===1)return B.l(g,w)
 while(true)switch(x){case 0:s=v.c
 s.toString
-u=B.cn(new B.eL().kG(v.f.R8),y.f)
+u=B.cm(new B.er().ke(v.f.R8),y.f)
 r=J
 x=2
 return B.h(u,$async$o4)
 case 2:u=r.Y(g,"baseData")
 u.toString
-B.aJ("el bool es "+d)
+B.aG("el bool es "+d)
 x=3
-return B.h(B.jL().alL(e,d,v.f.r,u),$async$o4)
+return B.h(B.jL().alM(e,d,v.f.r,u),$async$o4)
 case 3:t=g
 u=J.R(t)
 if(!u.h(t,"success")){u=u.h(t,"message")
 B.aq()
-new B.cY(s).eY(0,u,"Error")}return B.m(null,w)}})
+new B.cY(s).f6(0,u,"Error")}return B.m(null,w)}})
 return B.n($async$o4,w)}}
 var z=a.updateTypes([])
 A.bB9.prototype={
@@ -362,10 +362,10 @@ h=new B.iA(j,new B.f3(k,p)).oN(f.db,new A.bB1(f),"Explusado ?",h)
 p=B.aj()
 k=f.ax
 k.toString
-k=new E.aq6(p).aTj(k)
+k=new E.aq6(p).aTk(k)
 p=f.ax
 p.toString
-p=B.b([e,C.eQ,v,B.a1(B.b([s,r,t,D.a4S,o,n,D.a4S,m,l,q,i,h,k,f.bLu(p)],u),C.N,g,C.i,C.h,C.l)],u)
+p=B.b([e,C.eQ,v,B.a1(B.b([s,r,t,D.a4S,o,n,D.a4S,m,l,q,i,h,k,f.bLv(p)],u),C.N,g,C.i,C.h,C.l)],u)
 if(f.f&&f.ax.w==="TUTOR"){e=B.b([],u)
 if(!f.cx){v=f.a.c
 t=J.bN(f.d,new A.bB2(),y.u)
@@ -422,15 +422,15 @@ $S:0}
 A.bAX.prototype={
 $0(){var x=0,w=B.o(y.H),v=this
 var $async$$0=B.j(function(d,e){if(d===1)return B.l(e,w)
-while(true)switch(x){case 0:v.a.c2F()
+while(true)switch(x){case 0:v.a.c2H()
 return B.m(null,w)}})
 return B.n($async$$0,w)},
 $S:3}
 A.bB6.prototype={
-$0(){this.a.F1(!0,"prospectoAprobado")},
+$0(){this.a.F2(!0,"prospectoAprobado")},
 $S:0}
 A.bB7.prototype={
-$0(){this.a.F1(!1,"prospectoAprobado")},
+$0(){this.a.F2(!1,"prospectoAprobado")},
 $S:0}
 A.bAQ.prototype={
 $1(d){return d.c==="aprobado_nuevo_prospecto"},
@@ -623,4 +623,4 @@ return{u:x("bD<dN>"),i:x("y<hF>"),_:x("y<o6>"),C:x("y<dN>"),s:x("y<d>"),e:x("y<h
 D.a4S=new B.al(null,30,null,null)
 D.aZb=B.bV("I")})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_14",e:"endPart",h:b})})($__dart_deferred_initializers__,"LpXyx1c7umNgaTInnh0tkfpVXB4=");
+a.eventLog.push({p:"main.dart.js_14",e:"endPart",h:b})})($__dart_deferred_initializers__,"5ox+DIYRyqRv6bIE8dbx59lMoZo=");
