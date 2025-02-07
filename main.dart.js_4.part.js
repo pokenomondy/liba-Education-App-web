@@ -147,7 +147,7 @@ O(){var x=y.t
 return new B.aE_(A.b([],x),A.b([],x),A.b([],y.X))}}
 B.aE_.prototype={
 a6(){this.ah()},
-n(){A.aG("dispose wachat - plantillas")
+n(){A.aD("dispose wachat - plantillas")
 this.aB()},
 B(d){var x=y.w
 A.aJ(d,null,x).toString
@@ -156,7 +156,7 @@ bPy(d){var x="type",w="text",v=null,u="Sin programar",t=J.R(d)
 if(J.f(t.h(d,x),"HEADER"))if(J.f(t.h(d,"format"),"TEXT"))return A.v(t.h(d,w),v,v,v,v,v,A.a3(v,v,v,v,v,v,v,v,v,v,v,15,v,v,C.v,v,v,!0,v,v,v,v,v,v,v,v),v,v,v)
 else return A.v(u,v,v,v,v,v,v,v,v,v)
 else if(J.f(t.h(d,x),"BODY"))return A.v(t.h(d,w),v,v,v,v,v,v,v,v,v)
-else if(J.f(t.h(d,x),"FOOTER"))return A.v("footer "+A.k(t.h(d,w)),v,v,v,v,v,v,v,v,v)
+else if(J.f(t.h(d,x),"FOOTER"))return A.v("footer "+A.j(t.h(d,w)),v,v,v,v,v,v,v,v,v)
 else return A.v(u,v,v,v,v,v,v,v,v,v)}}
 B.Xq.prototype={
 O(){return new B.am3(new B.ag1(A.bL(),A.wm()))}}
@@ -169,7 +169,7 @@ if((x.b&4)===0){x=v.c
 x.toString
 w=v.e.r6(x)
 v.d.fb(0,w)}},
-n(){A.aG("dispose wachat - dashboard chat")
+n(){A.aD("dispose wachat - dashboard chat")
 var x=this.d
 x===$&&A.a()
 if((x.b&1)!==0)x.aC(0)
@@ -201,14 +201,14 @@ c0Q(d){if(d.e===0)return $.q8()
 else return $.ka()},
 a16(d){return this.bIb(d)},
 bIb(d){var x=0,w=A.o(y.H)
-var $async$a16=A.j(function(e,f){if(e===1)return A.l(f,w)
+var $async$a16=A.k(function(e,f){if(e===1)return A.l(f,w)
 while(true)switch(x){case 0:x=2
 return A.h(new B.ag4(A.bL()).Wa(d),$async$a16)
 case 2:return A.m(null,w)}})
 return A.n($async$a16,w)},
 Qy(d,e){return this.bI5(d,e)},
 bI5(d,e){var x=0,w=A.o(y.H)
-var $async$Qy=A.j(function(f,g){if(f===1)return A.l(g,w)
+var $async$Qy=A.k(function(f,g){if(f===1)return A.l(g,w)
 while(true)switch(x){case 0:x=2
 return A.h(new B.ag4(A.bL()).W7(d,e),$async$Qy)
 case 2:return A.m(null,w)}})
@@ -273,17 +273,17 @@ x=x.a
 return A.a1(A.b([w,A.a8(A.b([new A.al(d*2/3,s,u,s),t,A.ht(x,new B.cz0(),4,C.j,D.aoX,30,3),A.ht(x,new B.cz1(),4,C.j,D.aoY,30,3)],v),C.f,C.i,C.h,s)],v),C.f,s,C.i,C.h,C.l)}else return A.v("Han pasado 24 horas, no es posible enviar mensaje",s,s,s,s,s,s,s,s,s)},
 XR(d,e){return this.b_v(d,e)},
 b_v(d,e){var x=0,w=A.o(y.H),v=this,u,t
-var $async$XR=A.j(function(f,g){if(f===1)return A.l(g,w)
+var $async$XR=A.k(function(f,g){if(f===1)return A.l(g,w)
 while(true)switch(x){case 0:t=v.c
 t.toString
 t=A.bb(t,!1,y.l).y
 u=v.f
 x=u.a.a.length===0?2:4
 break
-case 2:A.aG("no enviar")
+case 2:A.aD("no enviar")
 x=3
 break
-case 4:A.aG("enviar")
+case 4:A.aD("enviar")
 x=5
 return A.h(new B.ag4(A.bL()).NQ(d,u.a.a,t.a),$async$XR)
 case 5:v.D(new B.czm(v))
@@ -292,13 +292,13 @@ return A.n($async$XR,w)}}
 B.afM.prototype={
 O(){return new B.aWs(A.b(["Item 1","Item 2","Item 3","Item 4","Item 5"],y.s))}}
 B.aWs.prototype={
-n(){A.aG("dispose wachat - embudo")
+n(){A.aD("dispose wachat - embudo")
 this.aB()},
 B(d){var x=null
 return A.a1(A.b([A.v("ss",x,x,x,x,x,x,x,x,x)],y.p),C.f,x,C.i,C.h,C.l)}}
 B.ag1.prototype={
 r6(d){return this.aX9(d)},
-aX9(b4){var $async$r6=A.j(function(b6,b7){switch(b6){case 2:s=v
+aX9(b4){var $async$r6=A.k(function(b6,b7){switch(b6){case 2:s=v
 x=s.pop()
 break
 case 1:t=b7
@@ -346,7 +346,7 @@ b0.toString
 j=a4.a(b0)
 i=A.cUB(j)
 J.cQ(l,i)}catch(b5){h=A.ag(b5)
-b2="Humanerror en chats "+A.k(h)
+b2="Humanerror en chats "+A.j(h)
 a6=$.p5
 if(a6==null)A.p4(b2)
 else a6.$1(b2)}}x=!o?16:18
@@ -394,7 +394,7 @@ case 2:return A.ai(t,1,w)}})
 var x=0,w=A.jG($async$r6,y.E),v,u=2,t,s=[],r=this,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3
 return A.jH(w)},
 a1Q(){var x=0,w=A.o(y.z),v,u=this,t,s
-var $async$a1Q=A.j(function(d,e){if(d===1)return A.l(e,w)
+var $async$a1Q=A.k(function(d,e){if(d===1)return A.l(e,w)
 while(true)switch(x){case 0:x=3
 return A.h(u.b.kk(new B.cyq(),y.A),$async$a1Q)
 case 3:s=e
@@ -407,7 +407,7 @@ x=1
 break}case 1:return A.m(v,w)}})
 return A.n($async$a1Q,w)},
 uf(d,e){return this.aXd(d,e)},
-aXd(b1,b2){var $async$uf=A.j(function(b4,b5){switch(b4){case 2:s=v
+aXd(b1,b2){var $async$uf=A.k(function(b4,b5){switch(b4){case 2:s=v
 x=s.pop()
 break
 case 1:t=b5
@@ -426,7 +426,7 @@ n=null
 x=5
 return A.ai(r.a5_(b2),$async$uf,w)
 case 5:d=b5
-A.aG("la ultima fecha es "+A.k(d))
+A.aD("la ultima fecha es "+A.j(d))
 x=!o?6:8
 break
 case 6:n=e.cV()
@@ -456,7 +456,7 @@ j=f.a(a7)
 J.cH(j,"phoneNumber",A.h9(b2,null))
 i=A.cNi(j)
 J.cQ(l,i)}catch(b3){h=A.ag(b3)
-a9="Humanerror en mensajes "+A.k(h)
+a9="Humanerror en mensajes "+A.j(h)
 a3=$.p5
 if(a3==null)A.p4(a9)
 else a3.$1(a9)}}x=!o?16:18
@@ -492,13 +492,13 @@ case 2:return A.ai(t,1,w)}})
 var x=0,w=A.jG($async$uf,y.c),v,u=2,t,s=[],r=this,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0
 return A.jH(w)},
 Ku(){var x=0,w=A.o(y.z),v,u=this,t,s,r
-var $async$Ku=A.j(function(d,e){if(d===1)return A.l(e,w)
+var $async$Ku=A.k(function(d,e){if(d===1)return A.l(e,w)
 while(true)switch(x){case 0:x=3
 return A.h(u.b.kk(new B.cyp(),y.E),$async$Ku)
 case 3:s=e
 r=A.b([],y.x)
 for(t=J.aw(s);t.v();)C.b.K(r,t.gX(t).f)
-A.aG("los mensajes son "+r.length)
+A.aD("los mensajes son "+r.length)
 v=r
 x=1
 break
@@ -506,7 +506,7 @@ case 1:return A.m(v,w)}})
 return A.n($async$Ku,w)},
 a5_(d){return this.bWA(d)},
 bWA(d){var x=0,w=A.o(y.S),v,u=this,t,s,r
-var $async$a5_=A.j(function(e,f){if(e===1)return A.l(f,w)
+var $async$a5_=A.k(function(e,f){if(e===1)return A.l(f,w)
 while(true)switch(x){case 0:r=J
 x=3
 return A.h(u.Ku(),$async$a5_)
@@ -520,7 +520,7 @@ break}case 1:return A.m(v,w)}})
 return A.n($async$a5_,w)}}
 B.ag4.prototype={
 a4c(){var x=0,w=A.o(y.z),v=this,u
-var $async$a4c=A.j(function(d,e){if(d===1)return A.l(e,w)
+var $async$a4c=A.k(function(d,e){if(d===1)return A.l(e,w)
 while(true)switch(x){case 0:u=y.N
 x=2
 return A.h(A.afJ(A.cDL(A.r(["type","service_account","project_id","dufy-asesorias","private_key_id","79155babfe12e650c59a6f2873fd32eae388a925","private_key","-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQChcbVSve/TgLjM\nYg0kSYfY4L0JMMcnBXNX0wdiZ/YdUTlZMg5uRHnvDTCgf1GupfB3PxzoQQifTlXd\nA5/Bkkmw2wzFq7muUHXVJzzWrwXrNqDvb6cAcml8iJ4r6UX/+ntgoscX4ZHzPq0h\nVnzx8a6eSAyokxjM/Lxydxqn97GD87jmIDZnKCM+8w9rZHuPZJ76KpciUuBrWgxh\nAB1YBya8bApt3ssV8h/oHQ9QzWRYXQVlni8ZPo9RYbr3I5Ap6n4ba2Oll3QzLADR\nISyiFjUgGbPePtfyn2KxoAZADXhl873i1HTX9VCKtaTHnKNpKwIPlC9jKISsFR1H\nmSGsDJ+5AgMBAAECggEAIcboAF0zwYTzZPN4u2hU7zep5TPa3tuhk7TXnSuSDvUw\n8evqoABcoHqae2HX5ZnbMx+1vRPqKWZayYhaEsY3+7QAupSgnws/c+6nKGVq8Bi4\nWA/8mTfWwRLWQOqn1hQCXyf/ToxHnGQ3FbwCHR6LAZuiZlyMOksAZFRt88l7TtdI\nUWLdFYhzAjSmo3ULXeI8UFI/asEsqhEPwkr2wTqGhXT6KDotjXse3aMsUAU2GY+3\n3qeGS75O2Zz/DALkv16aCcRUULI2uU1LX7XELeBthGZxKeiIE11IJj9ld+bwl1Sp\ntGQUJyzFfFnUx+GP0XVEoL0rlfx2z4sa0R66sNCvRwKBgQDYl6pIUFpwoXnjKn0a\n8NE5Ix1rav0TPfcMuUIejEVcHIZxDXZ8jmvnpslhjqXR5yZNUvbMLUgPweIieZuy\nRE4ROrgx46z12L6M7mN+FXSmC8XcytoD040/in496N3qHHypyh/P9hPNJ7q1uvTl\nw/ZD2XUIBH66Nx6pu8145666twKBgQC+0V/heqcKLTueiIxcul1mLzPvfppvgy6+\nSImO9M7f9Ld/6AE2bEC7LU1U67buUIGp3fVdUMpvK1pavNfm90HnPxKBah4cCyvN\n1wNmPs0g3vMNISjgyCmbF2HwiFGcYMxpQsPQILL2+4VyjQSAUmQ/lpYdquTP3KHK\n8pgfe3rJDwKBgGBWZVkw1GlQiYRvO6ImBwmhAs7qkZJjd2VjaXNo9NjZnzrdwBv6\nxSgOWXhZGIxaggDWrAt5AJpxpIGtEYGjPA4RzifymtXnCCprRjmolW/dwK5KU9pr\n2GGw2iHzV/FvpktnKes4Cuqvhy6Z75/bH8hiCtn8FdoB9lOMwwHKGz/VAoGASzWt\nK+szAYDYmeDKKhZOj+MU/lWRO1iiSN/AUDdPftgup1xjdfbvAJeXflw1yvKyWKii\neDhKwcx9nXwHQQK92A51FcskuPryNfyEW31vToBxngAu44IhW/64XJzuRculZeup\n0FPDFjQG4iKQ3p8a4jFRU7oy23bj0mER8n6x46MCgYAeIKtL994t2/yEMZtGKzUe\nqH2fSctmLkeXCfrWtSeB/JdFjIHPMrUjAHfm2gqj5fOKu7awkKUEzJRM2ZJH8tE4\nYrwKHX608HC5/t67gfJBK5ClZDR2Ui1gsVNhMrmbDFZfJibsckaJgNqGIlAax+Fu\nkdHt5iqD0lUSVTd5svgmEA==\n-----END PRIVATE KEY-----\n","client_email","entorno-comun-de-datos-drive@dufy-asesorias.iam.gserviceaccount.com","client_id","106860579823050981946","auth_uri","https://accounts.google.com/o/oauth2/auth","token_uri","https://oauth2.googleapis.com/token","auth_provider_x509_cert_url","https://www.googleapis.com/oauth2/v1/certs","client_x509_cert_url","https://www.googleapis.com/robot/v1/metadata/x509/entorno-comun-de-datos-drive%40dufy-asesorias.iam.gserviceaccount.com","universe_domain","googleapis.com"],u,u),null),A.b(["https://www.googleapis.com/auth/cloud-platform"],y.s)),$async$a4c)
@@ -529,8 +529,8 @@ return A.m(null,w)}})
 return A.n($async$a4c,w)},
 NQ(d,e,f){return this.b_u(d,e,f)},
 b_u(d,e,f){var x=0,w=A.o(y.z),v=this,u,t,s,r,q,p,o,n,m
-var $async$NQ=A.j(function(g,h){if(g===1)return A.l(h,w)
-while(true)switch(x){case 0:A.aG("vamos en "+d)
+var $async$NQ=A.k(function(g,h){if(g===1)return A.l(h,w)
+while(true)switch(x){case 0:A.aD("vamos en "+d)
 u=y.z
 x=2
 return A.h(v.a4c(),$async$NQ)
@@ -551,12 +551,12 @@ n="Task created: "
 m=A
 x=3
 return A.h(new B.bBU(new A.o0(t,"https://cloudtasks.googleapis.com/","",s)).a2g(0,new B.b5J(r),"projects/dufy-asesorias/locations/us-central1/queues/chat-procesamiento-envio-mensajes"),$async$NQ)
-case 3:o.aG(n+m.k(h.w))
+case 3:o.aD(n+m.j(h.w))
 return A.m(null,w)}})
 return A.n($async$NQ,w)},
 Wa(d){return this.c2a(d)},
 c2a(d){var x=0,w=A.o(y.z),v=this,u,t,s
-var $async$Wa=A.j(function(e,f){if(e===1)return A.l(f,w)
+var $async$Wa=A.k(function(e,f){if(e===1)return A.l(f,w)
 while(true)switch(x){case 0:s=v.b
 x=2
 return A.h(s.cU(),$async$Wa)
@@ -572,7 +572,7 @@ case 3:return A.m(null,w)}})
 return A.n($async$Wa,w)},
 W7(d,e){return this.c1Z(d,e)},
 c1Z(d,e){var x=0,w=A.o(y.z),v=this,u,t,s
-var $async$W7=A.j(function(f,g){if(f===1)return A.l(g,w)
+var $async$W7=A.k(function(f,g){if(f===1)return A.l(g,w)
 while(true)switch(x){case 0:s=v.b
 x=2
 return A.h(s.cU(),$async$W7)
@@ -589,7 +589,7 @@ return A.n($async$W7,w)}}
 B.Ho.prototype={
 O(){return new B.asE()}}
 B.asE.prototype={
-n(){A.aG("dispose wachat")
+n(){A.aD("dispose wachat")
 this.aB()},
 B(d){return A.eV(new B.boK(this),y._)}}
 B.aDB.prototype={}
@@ -601,7 +601,7 @@ B.cAU.prototype={}
 B.bBU.prototype={
 a2g(d,e,f){return this.bOd(0,e,f)},
 bOd(d,e,f){var x=0,w=A.o(y.G),v,u=this,t,s,r
-var $async$a2g=A.j(function(g,h){if(g===1)return A.l(h,w)
+var $async$a2g=A.k(function(g,h){if(g===1)return A.l(h,w)
 while(true)switch(x){case 0:t=C.al.tO(e)
 s=B
 r=y.P
@@ -724,7 +724,7 @@ B.b7K.prototype={
 $2(d,e){var x,w=null
 if(e.a===C.aH)return C.a5
 else{x=e.c
-if(x!=null)return A.v("Error chat: "+A.k(x),w,w,w,w,w,w,w,w,w)
+if(x!=null)return A.v("Error chat: "+A.j(x),w,w,w,w,w,w,w,w,w)
 else return C.a5}},
 $S:1515}
 B.czE.prototype={
@@ -821,7 +821,7 @@ if(x.d)w.Qy(v,!1)
 else w.Qy(v,!0)},
 $S:0}
 B.czp.prototype={
-$0(){A.aG("click derecho detectado")},
+$0(){A.aD("click derecho detectado")},
 $S:0}
 B.cza.prototype={
 $1(d){this.a.x.A(0,d)},
@@ -830,14 +830,14 @@ B.cze.prototype={
 $2(d,e){var x,w=null
 if(e.a===C.aH)return D.aXn
 else{x=e.c
-if(x!=null)return A.v("Error: "+A.k(x),w,w,w,w,w,w,w,w,w)
+if(x!=null)return A.v("Error: "+A.j(x),w,w,w,w,w,w,w,w,w)
 else if(e.b!=null)return A.v("",w,w,w,w,w,w,w,w,w)
 else return D.aX7}},
 $S:1520}
 B.czf.prototype={
 $4(d,e,f,g){var x,w,v,u,t,s=null,r=e.c,q=f.b,p=r.f,o=A.e9(r.b*1000,0,!1),n=C.c.ag(new A.ac(Date.now(),0,!1).h5(new A.ac(o,0,!1)).a,36e8)
 o=r.c
-A.aG("tgenemos "+p.length+" mensajes y "+o)
+A.aD("tgenemos "+p.length+" mensajes y "+o)
 if(o===0)return A.v("Seleccione un chat",s,s,s,s,s,s,s,s,s)
 else{x=this.a
 x.bId(o)
@@ -919,19 +919,19 @@ $0(){},
 $S:0}
 B.cz6.prototype={
 $0(){var x=0,w=A.o(y.H)
-var $async$$0=A.j(function(d,e){if(d===1)return A.l(e,w)
+var $async$$0=A.k(function(d,e){if(d===1)return A.l(e,w)
 while(true)switch(x){case 0:return A.m(null,w)}})
 return A.n($async$$0,w)},
 $S:3}
 B.cz7.prototype={
 $0(){var x=0,w=A.o(y.H)
-var $async$$0=A.j(function(d,e){if(d===1)return A.l(e,w)
+var $async$$0=A.k(function(d,e){if(d===1)return A.l(e,w)
 while(true)switch(x){case 0:return A.m(null,w)}})
 return A.n($async$$0,w)},
 $S:3}
 B.cz8.prototype={
 $0(){var x=0,w=A.o(y.H)
-var $async$$0=A.j(function(d,e){if(d===1)return A.l(e,w)
+var $async$$0=A.k(function(d,e){if(d===1)return A.l(e,w)
 while(true)switch(x){case 0:return A.m(null,w)}})
 return A.n($async$$0,w)},
 $S:3}
@@ -941,13 +941,13 @@ this.a.XR(this.b,A.w(x,x))},
 $S:0}
 B.cz0.prototype={
 $0(){var x=0,w=A.o(y.H)
-var $async$$0=A.j(function(d,e){if(d===1)return A.l(e,w)
+var $async$$0=A.k(function(d,e){if(d===1)return A.l(e,w)
 while(true)switch(x){case 0:return A.m(null,w)}})
 return A.n($async$$0,w)},
 $S:3}
 B.cz1.prototype={
 $0(){var x=0,w=A.o(y.H)
-var $async$$0=A.j(function(d,e){if(d===1)return A.l(e,w)
+var $async$$0=A.k(function(d,e){if(d===1)return A.l(e,w)
 while(true)switch(x){case 0:return A.m(null,w)}})
 return A.n($async$$0,w)},
 $S:3}
@@ -1075,4 +1075,4 @@ D.aX6=new A.aU("Unpin",null,null,null,null,null,null,null,null,null,null,null)
 D.aX7=new A.aU("Sin mensajes.",null,null,null,null,null,null,null,null,null,null,null)
 D.aXn=new A.aU("Cargando mensajes...",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_4",e:"endPart",h:b})})($__dart_deferred_initializers__,"0CnNEPY/5UCNAOLxlLS8HJ8i/Kk=");
+a.eventLog.push({p:"main.dart.js_4",e:"endPart",h:b})})($__dart_deferred_initializers__,"pwGqHLlRoUSthrPM9srMOgMJ+ic=");

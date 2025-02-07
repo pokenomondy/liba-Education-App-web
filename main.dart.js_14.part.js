@@ -145,7 +145,7 @@ x.at.iu().bO(0,new A.bB9(x),y.P)
 x.db=x.a.c},
 n(){this.aB()},
 LV(){var x=0,w=B.o(y.H),v=this
-var $async$LV=B.j(function(d,e){if(d===1)return B.l(e,w)
+var $async$LV=B.k(function(d,e){if(d===1)return B.l(e,w)
 while(true)switch(x){case 0:x=2
 return B.h(B.hK().zQ(),$async$LV)
 case 2:v.d=e
@@ -168,7 +168,7 @@ else if(!x&&d.ax)return B.v("El tutor no fue aprobado",w,w,w,w,w,w,w,w,w)
 else return B.a1(B.b([new B.O(C.eE,B.bZ(this.at.a,!1,new A.bB6(this),!1,15,C.J,"Aprobar Perfil",300),w),new B.O(C.eE,B.bZ(C.bn,!1,new A.bB7(this),!1,15,C.J,"Perfil no apto",300),w)],y.p),C.f,w,C.i,C.h,C.l)}else return B.a2(w,w,C.k,w,w,w,w,w,w,w,w,w,w,w)},
 F2(d,e){return this.b7_(d,e)},
 b7_(d,e){var x=0,w=B.o(y.H),v=this,u,t,s,r,q
-var $async$F2=B.j(function(f,g){if(f===1)return B.l(g,w)
+var $async$F2=B.k(function(f,g){if(f===1)return B.l(g,w)
 while(true)switch(x){case 0:q=v.c
 q.toString
 u=B.bb(q,!1,y.b).a
@@ -189,7 +189,7 @@ case 8:case 3:return B.m(null,w)}})
 return B.n($async$F2,w)},
 n4(d,e){return this.bI9(d,e)},
 bI9(d,e){var x=0,w=B.o(y.y),v,u=this,t,s,r,q
-var $async$n4=B.j(function(f,g){if(f===1)return B.l(g,w)
+var $async$n4=B.k(function(f,g){if(f===1)return B.l(g,w)
 while(true)switch(x){case 0:r=u.c
 r.toString
 t=new B.cY(r)
@@ -273,7 +273,7 @@ this.ah()},
 B(d){return B.eV(new A.bxO(this),y.l)},
 Nu(d){return this.aYy(d)},
 aYy(d){var x=0,w=B.o(y.H),v=this,u,t,s,r
-var $async$Nu=B.j(function(e,f){if(e===1)return B.l(f,w)
+var $async$Nu=B.k(function(e,f){if(e===1)return B.l(f,w)
 while(true)switch(x){case 0:s=v.c
 s.toString
 u=new B.cY(s)
@@ -283,7 +283,7 @@ x=2
 return B.h(s,$async$Nu)
 case 2:s=r.Y(f,"baseData")
 s.toString
-B.aG("el bool es "+D.aZb.l(0))
+B.aD("el bool es "+D.aZb.l(0))
 x=3
 return B.h(B.jL().ahp(d,v.f.r,s),$async$Nu)
 case 3:t=f
@@ -296,7 +296,7 @@ u.f7(s,"La operaci\xf3n salio exitosa")}return B.m(null,w)}})
 return B.n($async$Nu,w)},
 o4(d,e){return this.bWI(d,e)},
 bWI(d,e){var x=0,w=B.o(y.H),v=this,u,t,s,r
-var $async$o4=B.j(function(f,g){if(f===1)return B.l(g,w)
+var $async$o4=B.k(function(f,g){if(f===1)return B.l(g,w)
 while(true)switch(x){case 0:s=v.c
 s.toString
 u=B.cm(new B.er().ke(v.f.R8),y.f)
@@ -305,7 +305,7 @@ x=2
 return B.h(u,$async$o4)
 case 2:u=r.Y(g,"baseData")
 u.toString
-B.aG("el bool es "+d)
+B.aD("el bool es "+d)
 x=3
 return B.h(B.jL().alM(e,d,v.f.r,u),$async$o4)
 case 3:t=g
@@ -421,7 +421,7 @@ $0(){this.a.e=null},
 $S:0}
 A.bAX.prototype={
 $0(){var x=0,w=B.o(y.H),v=this
-var $async$$0=B.j(function(d,e){if(d===1)return B.l(e,w)
+var $async$$0=B.k(function(d,e){if(d===1)return B.l(e,w)
 while(true)switch(x){case 0:v.a.c2H()
 return B.m(null,w)}})
 return B.n($async$$0,w)},
@@ -623,4 +623,4 @@ return{u:x("bD<dN>"),i:x("y<hF>"),_:x("y<o6>"),C:x("y<dN>"),s:x("y<d>"),e:x("y<h
 D.a4S=new B.al(null,30,null,null)
 D.aZb=B.bV("I")})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_14",e:"endPart",h:b})})($__dart_deferred_initializers__,"5ox+DIYRyqRv6bIE8dbx59lMoZo=");
+a.eventLog.push({p:"main.dart.js_14",e:"endPart",h:b})})($__dart_deferred_initializers__,"y91N0gX39QiljluWF3kkFg7DrU8=");

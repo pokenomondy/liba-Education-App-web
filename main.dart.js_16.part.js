@@ -198,7 +198,7 @@ if(w===$?this.r=!1:w)return A.vI(new B.bAM(this),x.l,x.g,x.F)
 else return C.e3},
 tF(d,e){return this.bN8(d,e)},
 bN8(d,e){var w=0,v=A.o(x.H),u=this,t,s,r,q
-var $async$tF=A.j(function(f,g){if(f===1)return A.l(g,v)
+var $async$tF=A.k(function(f,g){if(f===1)return A.l(g,v)
 while(true)switch(w){case 0:r=u.c
 r.toString
 t=new A.cY(r)
@@ -226,7 +226,7 @@ A.a3(w,w,C.a9,w,w,w,w,w,"Poppins",w,w,14,w,w,C.V,w,w,!0,w,w,w,w,w,w,w,w)
 return A.ix(w,A.G(0,255,255,255),new A.k0(new B.bAx(this),w),w,w,w,w,w,w)},
 Wf(d){return this.c2l(d)},
 c2l(d){var w=0,v=A.o(x.H),u=this,t,s,r,q,p
-var $async$Wf=A.j(function(e,f){if(e===1)return A.l(f,v)
+var $async$Wf=A.k(function(e,f){if(e===1)return A.l(f,v)
 while(true)switch(w){case 0:p=u.c
 p.toString
 t=new A.cY(p)
@@ -260,20 +260,20 @@ t.f7(p,"La operaci\xf3n salio exitosa")}case 7:case 3:return A.m(null,v)}})
 return A.n($async$Wf,v)},
 nj(d){return this.aYC(d)},
 aYC(d){var w=0,v=A.o(x.z),u=1,t,s=this,r,q,p,o
-var $async$nj=A.j(function(e,f){if(e===1){t=f
+var $async$nj=A.k(function(e,f){if(e===1){t=f
 w=u}while(true)switch(w){case 0:u=3
 w=6
 return A.h($.w1.dJ().Hy(!1,C.anh),$async$nj)
 case 6:r=f
 if(r!=null&&J.fq(r.a))d.$1(new B.bAP(s,r))
-else A.aG("No se seleccion\xf3 ning\xfan archivo.")
+else A.aD("No se seleccion\xf3 ning\xfan archivo.")
 u=1
 w=5
 break
 case 3:u=2
 o=t
 q=A.ag(o)
-A.aG("Error al seleccionar el archivo: "+A.k(q))
+A.aD("Error al seleccionar el archivo: "+A.j(q))
 w=5
 break
 case 2:w=1
@@ -290,7 +290,7 @@ w.ah()
 if($.V==null)A.ez()
 $.V.toString
 w.d.iu().bO(0,new B.bK9(w),x.P)},
-n(){A.aG("dispose configuracion TUTOR")
+n(){A.aD("dispose configuracion TUTOR")
 this.aB()},
 B(d){var w,v,u=this,t=u.z,s=u.a
 if(t){t=s.c
@@ -316,7 +316,7 @@ r.push(new A.O(C.a2,A.a8(v,C.f,C.i,C.h,t),t))}if(w[d])r.push(new A.O(C.cY,new A.
 return new A.O(C.jR,A.a1(r,C.N,t,C.i,C.h,C.l),t)},
 Aa(d,e){return this.bQP(d,e)},
 bQP(d,e){var w=0,v=A.o(x.H),u=this,t,s
-var $async$Aa=A.j(function(f,g){if(f===1)return A.l(g,v)
+var $async$Aa=A.k(function(f,g){if(f===1)return A.l(g,v)
 while(true)switch(w){case 0:w=d===0?2:4
 break
 case 2:w=5
@@ -367,7 +367,7 @@ b7L(d,e){var w=this,v=null
 if(!w.y[d])return new D.JI(w.cx,e,v,v,v)
 else return new D.JI(w.cy,e,!0,new B.bJV(w),v)},
 a17(){var w=0,v=A.o(x.y),u,t=this,s,r,q
-var $async$a17=A.j(function(d,e){if(d===1)return A.l(e,v)
+var $async$a17=A.k(function(d,e){if(d===1)return A.l(e,v)
 while(true)switch(w){case 0:q=t.c
 q.toString
 s=new A.cY(q)
@@ -391,7 +391,7 @@ bWq(d,e){var w=this,v=w.y[d],u=w.as
 if(!v)return new D.JG(u,w.cx,!1,e,null,null)
 else return new D.JG(u,w.cy,!0,e,new B.bKb(w),null)},
 a7i(){var w=0,v=A.o(x.y),u,t=this,s,r,q
-var $async$a7i=A.j(function(d,e){if(d===1)return A.l(e,v)
+var $async$a7i=A.k(function(d,e){if(d===1)return A.l(e,v)
 while(true)switch(w){case 0:q=t.c
 q.toString
 s=new A.cY(q)
@@ -416,7 +416,7 @@ w.a.toString
 if(w.y[d])return new D.JF(w.cy,e,!0,new B.bKh(w),v,v)
 else return new D.JF(w.cx,e,!1,v,new B.bKi(w),v)},
 a1d(){var w=0,v=A.o(x.y),u,t=this,s,r,q,p,o,n,m,l,k
-var $async$a1d=A.j(function(d,e){if(d===1)return A.l(e,v)
+var $async$a1d=A.k(function(d,e){if(d===1)return A.l(e,v)
 while(true)switch(w){case 0:k=t.c
 k.toString
 s=new A.cY(k)
@@ -448,7 +448,7 @@ break}case 1:return A.m(u,v)}})
 return A.n($async$a1d,v)},
 a2y(d){return this.bPl(d)},
 bPl(d){var w=0,v=A.o(x.H),u=this,t,s,r
-var $async$a2y=A.j(function(e,f){if(e===1)return A.l(f,v)
+var $async$a2y=A.k(function(e,f){if(e===1)return A.l(f,v)
 while(true)switch(w){case 0:r=u.c
 r.toString
 t=new A.cY(r)
@@ -474,11 +474,11 @@ else v.push(new A.O(C.lh,A.v("Sube tu hoja de vida",w,w,w,w,w,w,w,w,w),w))
 return new A.O(E.Iv,A.a8(v,C.f,C.i,C.h,w),w)},
 K6(d){return this.bIR(d)},
 bIR(d){var w=0,v=A.o(x.y),u,t=this,s,r,q,p,o,n,m
-var $async$K6=A.j(function(e,f){if(e===1)return A.l(f,v)
+var $async$K6=A.k(function(e,f){if(e===1)return A.l(f,v)
 while(true)switch(w){case 0:n=t.c
 n.toString
 s=new A.cY(n)
-A.aG("a a\xf1adir hoja de vida")
+A.aD("a a\xf1adir hoja de vida")
 w=t.fr==null?3:5
 break
 case 3:A.aq()
@@ -536,7 +536,7 @@ if(!w.y[d])return new D.JE(w.cx,e,v,v,new B.bK5(w),v)
 else return new D.JE(w.cy,e,!0,new B.bK6(w),v,v)},
 a1b(d){return this.bIG(d)},
 bIG(d){var w=0,v=A.o(x.y),u,t=this,s,r,q,p,o
-var $async$a1b=A.j(function(e,f){if(e===1)return A.l(f,v)
+var $async$a1b=A.k(function(e,f){if(e===1)return A.l(f,v)
 while(true)switch(w){case 0:o=t.c
 o.toString
 s=new A.cY(o)
@@ -562,7 +562,7 @@ break}case 1:return A.m(u,v)}})
 return A.n($async$a1b,v)},
 a2x(d){return this.bPh(d)},
 bPh(d){var w=0,v=A.o(x.H),u=this,t,s,r
-var $async$a2x=A.j(function(e,f){if(e===1)return A.l(f,v)
+var $async$a2x=A.k(function(e,f){if(e===1)return A.l(f,v)
 while(true)switch(w){case 0:r=u.c
 r.toString
 t=new A.cY(r)
@@ -581,7 +581,7 @@ if(!w.y[d])return D.cEp(w.cx,null,!0,v,null,e)
 else return D.cEp(w.cy,null,!1,v,new B.bKc(w),e)},
 QU(d){return this.bJb(d)},
 bJb(d){var w=0,v=A.o(x.y),u,t=this,s,r,q,p
-var $async$QU=A.j(function(e,f){if(e===1)return A.l(f,v)
+var $async$QU=A.k(function(e,f){if(e===1)return A.l(f,v)
 while(true)switch(w){case 0:p=t.c
 p.toString
 s=new A.cY(p)
@@ -617,20 +617,20 @@ if(n==null)A.p4(o)
 else n.$1(o)
 m.push(new A.rB(t,p.d,""))}return m},
 lG(){var w=0,v=A.o(x.z),u=1,t,s=this,r,q,p,o
-var $async$lG=A.j(function(d,e){if(d===1){t=e
+var $async$lG=A.k(function(d,e){if(d===1){t=e
 w=u}while(true)switch(w){case 0:u=3
 w=6
 return A.h($.w1.dJ().Hz(!1,A.b(["pdf"],x.s),C.qQ),$async$lG)
 case 6:r=e
 if(r!=null&&J.fq(r.a))s.D(new B.bKe(s,r))
-else A.aG("No se seleccion\xf3 ning\xfan archivo.")
+else A.aD("No se seleccion\xf3 ning\xfan archivo.")
 u=1
 w=5
 break
 case 3:u=2
 o=t
 q=A.ag(o)
-A.aG("Error al seleccionar el archivo: "+A.k(q))
+A.aD("Error al seleccionar el archivo: "+A.j(q))
 w=5
 break
 case 2:w=1
@@ -840,7 +840,7 @@ w[v]=!w[v]},
 $S:0}
 B.bK2.prototype={
 $0(){var w=0,v=A.o(x.H),u=this
-var $async$$0=A.j(function(d,e){if(d===1)return A.l(e,v)
+var $async$$0=A.k(function(d,e){if(d===1)return A.l(e,v)
 while(true)switch(w){case 0:u.a.Aa(u.b,u.c)
 return A.m(null,v)}})
 return A.n($async$$0,v)},
@@ -859,7 +859,7 @@ w[v]=!w[v]},
 $S:0}
 B.bJV.prototype={
 $1(d){var w
-A.aG("Servicios actualizados: "+A.k(d))
+A.aD("Servicios actualizados: "+A.j(d))
 w=this.a
 w.D(new B.bJU(w,d))},
 $S:379}
@@ -868,7 +868,7 @@ $0(){this.a.db=A.bm(this.b,!0,x.N)},
 $S:0}
 B.bKb.prototype={
 $1(d){var w
-A.aG("Servicios actualizados: "+A.k(d))
+A.aD("Servicios actualizados: "+A.j(d))
 w=this.a
 w.D(new B.bKa(w,d))},
 $S:1490}
@@ -877,7 +877,7 @@ $0(){this.a.CW=A.bm(this.b,!0,x.n)},
 $S:0}
 B.bKh.prototype={
 $1(d){var w
-A.aG("Experienca laboral para actualizar: "+d.l(0))
+A.aD("Experienca laboral para actualizar: "+d.l(0))
 w=this.a
 w.D(new B.bKg(w,d))},
 $S:378}
@@ -914,10 +914,10 @@ $0(){this.a.dy=this.b},
 $S:0}
 B.bKc.prototype={
 $1(d){var w
-A.aG("materias selecicoandas son "+J.as(d))
+A.aD("materias selecicoandas son "+J.as(d))
 w=A.bm(d,!0,x.N)
 this.a.ax=w
-A.aG("las materias tring son "+w.length)},
+A.aD("las materias tring son "+w.length)},
 $S:379}
 B.bKd.prototype={
 $1(d){return d.b===this.a},
@@ -941,4 +941,4 @@ E.aqo=new A.d8(C.Bg,null,null,null,null,null)
 E.aoR=new A.aW(58162,"MaterialIcons",null,!1)
 E.aqu=new A.d8(E.aoR,100,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_16",e:"endPart",h:b})})($__dart_deferred_initializers__,"WBxC0bD6DanE6GkleRk9vGDRJ9c=");
+a.eventLog.push({p:"main.dart.js_16",e:"endPart",h:b})})($__dart_deferred_initializers__,"SaEAcQBmTKsUam7ql+T7kja27W8=");

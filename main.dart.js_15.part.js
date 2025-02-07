@@ -660,7 +660,7 @@ x=w.c
 w.d.$1(x)}},
 Xi(d){return this.aYv(d)},
 aYv(d){var x=0,w=A.o(y.H),v=1,u,t=this,s,r,q,p,o
-var $async$Xi=A.j(function(e,f){if(e===1){u=f
+var $async$Xi=A.k(function(e,f){if(e===1){u=f
 x=v}while(true)switch(x){case 0:p=A.b([],t.$ti.i("y<1>"))
 v=3
 x=6
@@ -926,14 +926,14 @@ t=A.ku(o,o,o,B.aG,o,o,!0,o,A.b8(A.b([A.b8(o,o,o,o,"1. Haz clic en el bot\xf3n de
 u=A.a3(o,o,B.w,o,o,o,o,o,m,o,o,14,B.Kj,o,o,o,o,!0,o,o,o,o,o,o,o,o)
 return new A.al(x,o,A.a1(A.b([new A.O(B.fi,v,o),D.aHv,new A.O(D.am1,q,o),new A.O(new A.a6(0,0,0,8),s,o),new A.O(new A.a6(8,0,0,12),t,o),new A.O(new A.a6(0,0,0,8),A.ku(o,o,o,B.aG,o,o,!0,o,A.b8(A.b([A.b8(o,o,o,A.a3(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.v,o,o,!0,o,o,o,o,o,o,o,o),"Nota: "),A.b8(o,o,o,o,"Una vez presentada, tu prueba ser\xe1 revisada por nuestro equipo. Si tienes cualquier problema o duda, no dudes en contactarnos.")],r),o,o,u,o),B.A,o,o,B.L,B.R),o)],w),B.N,o,B.i,B.h,B.l),o)}}}},
 bLQ(){var x=null,w="Calificar examen",v=this.a.d.fx,u=v.b,t=new A.bq(B.D,$.ad()),s=v.e,r=y.p
-if(s!==-1)return A.a1(A.b([A.v("Examen calificado "+A.k(s),x,x,x,x,x,x,x,x,x)],r),B.f,x,B.i,B.h,B.l)
+if(s!==-1)return A.a1(A.b([A.v("Examen calificado "+A.j(s),x,x,x,x,x,x,x,x,x)],r),B.f,x,B.i,B.h,B.l)
 else return A.a1(A.b([A.v(w,x,x,x,x,x,x,x,x,x),A.fz(x,new C.c0w(u),J.as(u),x,x,x,B.cq,x,x,!1,!0),new A.iA(A.aj(),new A.f3(A.bk(),A.aj())).At("Nota","",t,this.a.c),A.bZ(B.cf,!1,new C.c0x(this,t),!1,15,B.J,w,-1)],r),B.f,x,B.i,B.h,B.l)},
 aJN(){var x=this,w=null
 if(x.a.d.w==="TUTOR")return A.v("Fue aprobado como tutor",w,w,w,w,w,w,w,w,w)
 else return A.a1(A.b([new A.O(B.eE,A.bZ(x.f.a,!1,new C.c0p(x),!1,15,B.J,"Aprobar tutor",300),w),new A.iA(A.aj(),new A.f3(A.bk(),A.aj())).At("Nombre whsp","",x.r,x.a.c),new A.O(B.eE,A.bZ(B.bn,!1,new C.c0q(x),!1,15,B.J,"No Aprobar tutor",300),w)],y.p),B.f,w,B.i,B.h,B.l)},
 xV(d){return this.bKm(d)},
 bKm(d){var x=0,w=A.o(y.H),v=this,u,t,s,r,q,p
-var $async$xV=A.j(function(e,f){if(e===1)return A.l(f,w)
+var $async$xV=A.k(function(e,f){if(e===1)return A.l(f,w)
 while(true)switch(x){case 0:p=v.c
 p.toString
 u=new A.cY(p)
@@ -989,7 +989,7 @@ case 5:case 3:return A.m(null,w)}})
 return A.n($async$xV,w)},
 n4(d,e){return this.bIa(d,e)},
 bIa(d,e){var x=0,w=A.o(y.v),v,u=this,t,s,r,q
-var $async$n4=A.j(function(f,g){if(f===1)return A.l(g,w)
+var $async$n4=A.k(function(f,g){if(f===1)return A.l(g,w)
 while(true)switch(x){case 0:r=u.c
 r.toString
 t=new A.cY(r)
@@ -1017,7 +1017,7 @@ break}case 1:return A.m(v,w)}})
 return A.n($async$n4,w)},
 K7(d){return this.bJ4(d)},
 bJ4(d){var x=0,w=A.o(y.H),v=this,u,t,s,r,q
-var $async$K7=A.j(function(e,f){if(e===1)return A.l(f,w)
+var $async$K7=A.k(function(e,f){if(e===1)return A.l(f,w)
 while(true)switch(x){case 0:q=v.c
 q.toString
 u=new A.cY(q)
@@ -1057,7 +1057,7 @@ case 4:return A.m(null,w)}})
 return A.n($async$K7,w)},
 a1A(d){return this.bLn(d)},
 bLn(d){var x=0,w=A.o(y.d),v,u
-var $async$a1A=A.j(function(e,f){if(e===1)return A.l(f,w)
+var $async$a1A=A.k(function(e,f){if(e===1)return A.l(f,w)
 while(true)switch(x){case 0:u=Date.now()
 v=d.jn(A.c9(0,2,0,0,0,0).a).h5(new A.ac(u,0,!1))
 x=1
@@ -1467,7 +1467,7 @@ $S(){return this.a.$ti.i("I(1)")}}
 C.cm4.prototype={
 $1(d){return this.aVp(d)},
 aVp(d){var x=0,w=A.o(y.H),v=this,u,t,s
-var $async$$1=A.j(function(e,f){if(e===1)return A.l(f,w)
+var $async$$1=A.k(function(e,f){if(e===1)return A.l(f,w)
 while(true)switch(x){case 0:s=d.length===0
 if(s){u=v.a
 u.e=!0}else{u=v.a
@@ -1867,4 +1867,4 @@ x($,"dtF","cZZ",()=>A.nm(B.dT))
 x($,"dtE","cZY",()=>A.nm(B.cl))
 x($,"dtG","d__",()=>A.n1(0,0.5,A.ao("Z")))})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"JQ7AZaMvKlR7NKsu7W3mQFwn7Uk=");
+a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"Nq4NcwZoSxa4x+EkMwg4InRLFUM=");
